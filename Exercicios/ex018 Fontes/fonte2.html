@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family:"disney" ;
+            src: url('fontes/waltograph42.otf') format('opentype'), url('fontes/waltographUI.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            
+
+            /* Tipos de format:
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat
+            - svg */
+        }
+        body{
+            
+            font-size: 2em;
+            
+            background-image: linear-gradient(to left, rgba(237, 117, 223, 0.74),rgb(233, 178, 210) ,rgb(226, 173, 182));
+        }
+        h1{ font-family: 'disney', sans-serif;
+            background-color: #ffffff;
+            border-radius: 70px;
+            margin: 30px auto;
+            width: 335px;
+            text-align: center;
+            text-shadow: 2px 2px 2px #00000041;
+            color: #002C8C;
+        }
+        h2{font-family: 'disney', sans-serif;
+            color: #000000;
+            
+            margin-left: 15px;
+        }
+        h3{
+            
+            color: #000000;
+            text-decoration: underline;
+        }
+        img{
+            width: 300px;
+            margin-top: -20px;
+        }
+        .mickey{
+            font-family: cursive;
+            background-color: #f0f8ff;
+            margin-left: 180px;
+           margin-right: 180px;
+           border-radius: 40px;
+           text-align: center;
+        }
+        .miney{
+            font-family: cursive;
+            background-color: #f0f8ff;
+            margin-left: 180px;
+           margin-right: 180px;
+           border-radius: 40px;
+           text-align: center;
+        }
+            
+          
+       
+        
+    </style>
+</head>
+<body>
+    <div class="conteiner1">
+        <h1>Fonte Disney</h1>
+    </div>
+    <h2>Personagens:</h2>
+    <div class="mickey">
+        <h3>Mickey Mouse</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/pt/d/d4/Mickey_Mouse.png" alt="">
+    </div>
+
+    <div class="miney">
+        <h3>Miney</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/6/67/Minnie_Mouse.png/250px-Minnie_Mouse.png" alt="">
+    </div>
+    <p><abbr title="um dia eu chego la">Estou treinando</abbr></p>
+    
+</body>
+</html>
