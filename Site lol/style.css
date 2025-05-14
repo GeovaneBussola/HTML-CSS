@@ -165,10 +165,10 @@ h4{
 }
 .q{
     align-items: center;
-    justify-items: center;
     justify-content: center;
     display: flex;
     margin-top: 50px;
+    
 }
 .q video{
     background-color: #e7000000;
@@ -181,7 +181,6 @@ h4{
 }
 .w{
     align-items: center;
-    justify-items: center;
     justify-content: center;
     display: flex;
     margin-top: 50px;
@@ -198,7 +197,6 @@ h4{
 }
 .e{
     align-items: center;
-    justify-items: center;
     justify-content: center;
     display: flex;
     margin-top: 50px;
@@ -215,10 +213,10 @@ h4{
 }
 .r{
     align-items: center;
-    justify-items: center;
     justify-content: center;
     display: flex;
     margin-top: 50px;
+    
 }
 .r video{
     background-color: #e7000000;
