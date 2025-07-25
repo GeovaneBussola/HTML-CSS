@@ -26,7 +26,13 @@
 
 }
 body{
-    background-color: var(--cor2);
+    background-image: url("Imagens/imgzed.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+
 }
 p{
     margin: 10px 0 10px 0;
@@ -35,9 +41,10 @@ p{
 h4{
     font-family: var(--texto);
 }
-header{
-    background-image: linear-gradient(to top, var(--cor2), var(--cor6));
-}
+
+    
+    
+
 header > h1{
     padding: 25px 0px 0px 0;
     text-align: center;
@@ -85,7 +92,7 @@ header > nav a:hover{
     font-size: 3.4em;
     padding-top: 40px;
     color:  var(--cor3);
-    text-shadow: 1.5px 1.5px 1px rgba(255, 255, 255, 0.39);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.39);
 
 }
 
