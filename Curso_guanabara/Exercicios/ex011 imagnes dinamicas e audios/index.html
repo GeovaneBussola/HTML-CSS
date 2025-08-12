@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mideas em Html5</title>
+</head>
+<body>
+    <h1>Imagen dinamica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="grande">
+    </picture>
+    
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audios em html5</p>
+    <audio controls preload="auto" >
+        <source src="midia/toma.mp3" type="audio/mpeg">
+        <source src="midia/toma.wave" type="audio/wave">
+        <source src="midia/toma.ogg" type="audio/ogg">
+        <p>não foi possivel carregar o audio no seu navegador</p>
+    </audio>
+
+    <audio src="midia/toma.mp3" controls></audio>
+    
+</body>
+</html>
